@@ -1,0 +1,16 @@
+{
+  "name": "cryptocurrencies",
+  "version": "1.0.0",
+  "description": "Aplicação web simples consumindo API de criptomoedas de terceiros no backend e API própria no frontend.",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
